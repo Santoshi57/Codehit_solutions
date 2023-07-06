@@ -159,6 +159,31 @@ h3{
 .Membership-col:hover{
     box-shadow: 0 0 15px 0px rgba(0,0,0,0.2);
 }
+.Programs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.Programs-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    background: #fff3f3;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.Programs-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Programs-col p{
+    padding: 0;
+}
+.Programs-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
 
 footer{
 	position: fixed;
@@ -355,34 +380,7 @@ footer{
 	}
 
 }
-.Programs{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.Programs-col{
-    flex-basis: 31%;
-    border-radius: 10px;
-    background: #fff3f3;
-    margin-bottom: 5%;
-    text-align: left;
-}
-.Programs-col p{
-    padding: 0;
-}
-.Programs-col img{
-    width: 80%;
-    border-radius: 10px;
-}
-.Program-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-.Programs-col h3{
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
-}
+.
 .about-us{
     width: 80%;
     margin: auto;
