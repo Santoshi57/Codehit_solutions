@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>Codehit Solutions</title>
+     <link rel="stylesheet"href="style.css">
+     
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+   <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/cover1.png " style="height: 120px;width: 200px;"></a>
+        <div class="nav-links" id="navLinks">
+            <a href=" " class="hero-btn">SignUp</a>
+            <a href=" " class="hero-btn">Login</a>
+            <i class="fa fa-times" onclick="hideMenu()"></i>   
+        
+         
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Our Services</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+            </ul>
+            
+        </div>
+        <i class="fa fa-caret-down" onclick="showMenu()"></i>
+    </nav>
+    <h1 style="color: aliceblue; text-align: center;">"Connect with Us"</h1><br>
+
+    <h1 style="text-align: center;color: aliceblue;">Here are we &#11123;</h1>
+</section>
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14126.854958249549!2d85.34991568832672!3d27.726123425893086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bdeec6dea53%3A0x5061ba55f36b0545!2sP9G5%2BCCW%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1641826956379!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="Contact-Us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Lampokhari</h5>
+                    <p>Chabahil-Kathmandu, Nepal</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+977 9840708961</h5>
+                    <p>Open Everyday, 10AM to 5PM</p>
+                </span>
+            </div><div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>codehitsolution@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col" style="text-align: center;">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your Email Address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+
+
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+                <br>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+</script>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+  <img src="images/cover1.png">
+  
+
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            |
+            <a href="blog.html">Blog</a>
+            |
+            <a href="about.html">About</a>
+            |
+            <a href="contact.html">Contact</a>
+
+        </p> 
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+              <p><span>LamPokharai</span> Chabhil-Kathmandu, Nepal</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>977 9840708961</p>
+
+
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:codehitsolutions@gmail.com">codehitsolutions@gmail.com</a></p>
+        </div>
+        <p class="footer-company-name">©CodehitSolutions2023</p>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            We actively involve young generation in  development training and skill building 
+           trainings.</p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100094368549312"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/CodehitSolutions"><i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/codehitsolution/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/codehit-solutions/"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+
+</html>
